@@ -381,7 +381,7 @@ var b = -1;
 ///////question 3
 
 // var userInput = +prompt("Enter a number:");
-// function checkNumber(num) {
+// userInput = checkNumber;
 //     if (num > 1) {
 //         document.write("The number is positive.");
 //     } else if (num < 0) {
@@ -390,7 +390,7 @@ var b = -1;
 //         document.write("The number is zero.");
 //     }
 
-// }
+
 // checkNumber(userInput);
 
 //////Question 6
@@ -454,16 +454,16 @@ var b = -1;
 
 
 
-/////Question #9
+// /////Question #9
 
 // var colors =["Red" , "green" ," blue" ,"oange" ,"pink"];
-// var addColor = prompt('What color do you want to add to the beginning?');
+// var displayColor = prompt('What color do you want to add to the beginning?');
 // colors.unshift("black");
 // console.log(colors);
-// if(displayColors === colors){
+
 
 //  //b) Add color to the end
-//     var endColor = prompt('What color do you want to add to the end?');
+//     var displayColor = prompt('What color do you want to add to the end?');
 //     colors.push("yellow");
 //     console.log(colors);
 
@@ -513,8 +513,8 @@ var b = -1;
 
 // // Display scores and percentages
 // console.log("Student Scores and Percentages:");
-// for (let i = 0; i < studentNames.length; i++) {
-//     const percentage = (studentScores[i] / 500) * 100;
+// for (var i = 0; i < studentNames.length; i++) {
+//     var percentage = (studentScores[i] / 500) * 100;
 //     console.log(`${studentNames[i]}: Score = ${studentScores[i]}, Percentage = ${percentage.toFixed(2)}%`);
 // }
  
