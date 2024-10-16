@@ -360,22 +360,23 @@ var b = -1;
 //     console.log("The input is neither a number nor a letter.");
 // }
 
-//////Question 2
+//////Question  2 
 
-// firstNumber = +prompt("Enter the first integer:");
-// secondNumber = +prompt("Enter the second integer:");
-// function compareNumbers(num1, num2) {
-//     if (num1 > num2) {
-//         document.write(`The larger number is: ${num1}`);
-//     } else if (num1 < num2) {
-//         document.write(`The larger number is: ${num2}`);
-//     } else {
-//        document.write(`Both numbers are equal: ${num1}`);
-//     }
+
+
+
+// var firstNumber = +prompt("Enter the first integer:");
+// var secondNumber = +prompt("Enter the second integer:");
+
+// if (firstNumber > secondNumber) {
+//     document.write(`The larger number is: ${firstNumber}`);
+// } else if (firstNumber < secondNumber) {
+//     document.write(`The larger number is: ${secondNumber}`);
+// } else {
+//     document.write(`Both numbers are equal: ${firstNumber}`);
 // }
 
 // compareNumbers(firstNumber, secondNumber);
-
 
 
 ///////question 3
@@ -393,6 +394,18 @@ var b = -1;
 
 // checkNumber(userInput);
 
+// var userInput = +prompt("Enter a number:");
+
+// if (userInput > 0) {
+//     document.write("The number is positive.");
+// } else if (userInput < 0) {
+//     document.write("The number is negative.");
+// } else {
+//     document.write("The number is zero.");
+// }
+
+
+// checkNumber(userInput);
 //////Question 6
 
 // var hour = prompt("What time is it? (Enter hour in 24-hour format)");
