@@ -8,17 +8,18 @@
 
 // //chapter#2
 
-/////Question 2
+/////Question 1
 
 // var userName ="hiraAsif";
 // console.log(userName);
-//////Question 3
+
+//////Question 2
 
 // var myName="Hira";
 //  fullName ="shafaqueammar";
 // console.log(myName);
 
-
+/////////Question 3
 
 // var JS = "JavaScript";
 // JS = "Hello World";
@@ -34,9 +35,11 @@
 // alert(age);
 // var education = "Certified Mobile Application Development";
 // alert(education);
+
 //////////Question 5
 
 // alert("JavaScript Alert\nPIZZA\nPIZZ\nPIZ\nPI\nP");
+
 ///////Question 6
 
 // var email;
@@ -48,16 +51,22 @@
 // var book;
 // book = "A smarter way to learn JavaScript";
 // alert("I am tring to learn from the book:"+ book);
+
 ////////Question 8
 
 // document.write("Yah! I can write HTML content trough the JavaScript");
 
-//chapter#3
+///////////chapter#3
+
+///////////Question 1
 
 // var age;
 // age = "35 years old";
 
 // alert("I am :" + age);
+
+
+//////////Question 2
 
 // var visitCount = 1;
 // for(var i = 1;i <= 5; i++){
@@ -66,11 +75,14 @@
 
 // alert("You have visited this site " + visitCount +" " + "time,");
 
+////////Question 3
 
 // var birthYear;
 // birthYear = "My birth year is 1990";
 
 // document.write(birthYear +"\n"+"Data type of declare variable is number");
+
+////////Question4
 
 // var clothingStoe = "XYZ Clothing Store"
 // var visitorName= "John Doe";
@@ -79,8 +91,13 @@
 
 // document.write(visitorName + " " + quantity + " " + productTitle + " " +"on" + " " + clothingStoe);
 
-//chapter#4
+//////////chapter#4
+
+////////Question 1
+
 // var name = "John", age = 30, email = "example@example.com";
+
+/////////Question 2
 
 // //legal variable name
 // var legal ;
@@ -95,6 +112,9 @@
 // var var ;
 // varillegal% ;
 
+
+/////////Question 3
+
 // document.write("Variable name can only contain,numbers ,$ or _.\nFor Example $my_1stVariable");
 
 // document.write("Variable must begin with a letter $ or_.For Example: $name,_name or name");
@@ -103,7 +123,7 @@
 
 // document.write("Variable name should not be JS keywords");
 
-////////////chaptr#
+////////////chaptr#5
 
 ////Question1
 
@@ -163,6 +183,7 @@
 // var costOfTotalTicket = ticket*totalTicket;
 
 // document.write("Total cost to buy "+totalTicket+" "+ "tickets to a movie is Rs:"+costOfTotalTicket+"PKR");
+
 /////////Question 5
 
 // document.write("Table of 4")
@@ -203,12 +224,6 @@
 // var percentage= obtainedMarks/totalMarks*100;
 // document.write("Total marks" +" "+ totalMarks +"\n"+ "Obtained Marks"+" " + obtainedMarks +"\n"+ "percentage is"+" "+ percentage);
 
-///////////////chapter#6-9
-// var a=10 
-// document.write("The value of a is"+ " "+a+"\n");
-
-//  var myExp = ++a + a++ + --a + a--
-//               11   +12  +  11 +10
 
 // ////////Question 10
 // // Initialize a variable with a number
@@ -217,8 +232,9 @@
 
 // document.write("The result is:", result);
 
+///////////////chapter#6-9
 
-
+////////Question 1
 
 
 // var a = 10 ; ++a;
@@ -243,14 +259,70 @@
 // document.write("Now the value of a is:"+" "+a+"\n");
 
 
-var a = -2;
-var b = -1;
+// var a=10 
+// document.write("The value of a is"+ " "+a+"\n");
 
-// var i = 7;// 11
-//  var myExp2 = i++ - i++ + 7 - ++i + ++i -11;
-//  //           7    - 8   + 7 - 10 +   11 -11;
+//  var myExp = ++a + a++ + --a + a--
+//               11   +12  +  11 +10
+
+////////Question 2
+
+// ///--a
+
+// var a = 2, b = 1;
+// var result = --a //(2 - 1)
+// Result: 1
+
+// ///--a - --b
+
+// --b (1 - 1)
+//    var result = --a - --b
+//                 1  -  0
+// Result: 1.
+// ////    --a - --b + ++b
+
+
+// ++b  (0 + 1)
+// var result = --a - --b + ++b
+//                1 -   0 +   1
+// Result: 2
+
+// ////--a - --b + ++b + b--
+
+// var result = --a - --b + ++b + b--
+
+//                1 -   0 +   1 + 1
+
+// result: 1 - 0 + 1 + 1 // 3
+
+///////Question 3
+
+// var userName = prompt("Please enter your name:");
+// if (userName) {
+//     alert("Hello, " + userName + "! Nice to meet you!");
+// } else {
+//     alert("Hello! Nice to meet you!");
+// }
+
+////////Question 6
+
+    // var marks1 = prompt("Enter Marks for Subject 1 (out of 100)");
+    // var marks2 = prompt("Enter Marks for Subject 2 (out of 100)");
+    // var marks3 = prompt("Enter Marks for Subject 3 (out of 100)");
+
+    // var totalMarksPerSubject = 100;
+    // var totalMarks = totalMarksPerSubject * 3;
+
+    // var obtainedMarks = marks1 + marks2 + marks3;
+    // var percentage = (obtainedMarks / totalMarks) * 100;
+
+    
+
+
+
 
 //chapter 9 to 11
+///////Question1
 
 //  var userInput  = prompt("select city name?");
 //  var dAns = "karachi";
@@ -258,6 +330,7 @@ var b = -1;
 //  if(userInput===dAns){
 // alert("welcome to the city");
 //  }
+/////////Question 2
 
 //  var userInput  = prompt("select gender name?");
 //  var dAns = "Male";
@@ -268,7 +341,7 @@ var b = -1;
 //    alert("Good Morning Ma'am");
 //  }
 
-
+//////////Question 3
 
 // var signalColor = prompt("what is the colour of traffic signal?");
 // var dAns = "Red";
@@ -282,7 +355,7 @@ var b = -1;
 //    alert("Move Now!");
 // }
 
-
+/////////Question 4
 
 
 // var remaining_fuel = prompt("Enter the remaining fuel in your car (in litres): ");
@@ -292,6 +365,7 @@ var b = -1;
 //    alert("You have enough fuel.");
 // }
 
+/////Question 5
 
 // var b = 4;
 // if(b++ === 5){
@@ -321,6 +395,47 @@ var b = -1;
 //    alert(" condition 4 is true");
 // }//true
 
+///////Question 6
+
+// var totalMarks = 300;
+// var marksObtained = 219;
+// var percentage ="73%";
+// var grade = "B";
+
+// if(marksObtained <= 80){
+// alert("Excelent! Your Grade is 'A+'");
+// }else if(marksObtained>= 70){
+//     alert("Good! Your Grade is 'A'");
+// }else if(marksObtained>= 60){
+//     alert("You need to improve! Your Grade is 'B'");
+// }else {
+//     alert("Fail");
+// }
+
+// console.log("Total Marks :"+ " " +totalMarks);
+// console.log(" Obtained Marks :"+ " " +marksObtained);
+// console.log(" Percentage :"+ " " + percentage);
+// console.log("Grade :"+ " " + grade);
+// console.log(" Remarks :You need to improve");
+
+/////////Question 7
+
+
+// var randomNum = Math.random() * 10; 
+// var correctNum = Math.floor(randomNum) + 1; 
+
+// var userNum = +prompt("Guess the number between 1 to 10:");
+
+// if (userNum === correctNum) {
+//     document.write("<p>Your Answer is Correct!</p>");
+//     document.write("Correct answer");
+// } else if (userNum === correctNum + 1 || userNum === correctNum - 1) {
+//     document.write("<p>Almost there! The correct number was: " + correctNum + "</p>");
+//     document.write("Play again");
+// } else {
+//     document.write("<p>You Lose. The correct number was: " + correctNum + "</p>");
+//     document.write("You loss");
+// }
 
 // var materialCost = 20000;
 // var labourCost = 2000;
